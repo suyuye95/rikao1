@@ -23,8 +23,10 @@ body {
     @include align;
     padding: 0 pxTorem(10px);
     box-sizing: border-box;
+    i {
+        font-size: pxTorem(14px);
+    }
     span {
-        width: pxTorem(44px);
         font-size: pxTorem(14px);
     }
 }
